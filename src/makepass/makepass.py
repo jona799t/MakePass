@@ -391,4 +391,4 @@ def main(
 	if verbose or count:
 		errfmt("The password is {len} characters long", len=len(password))
 
-	print(password)
+	return password
